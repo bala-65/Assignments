@@ -6,7 +6,7 @@ public class Conditional_A6 {
 		
 		//customer's details
 		String customerName="John doe";
-		int creditScore= 720;
+		int creditScore= 620;
 		float income= 55000.0f;
 		boolean isEmployed= true;
 		float debtToIncomeRatio= 35.0f;
@@ -23,10 +23,10 @@ public class Conditional_A6 {
 				if(income>=50000.0 && isEmployed== true && debtToIncomeRatio <= 40.0){
 					System.out.println("The loan is approved for " + customerName);}		
 		else
-			System.out.println("The loan is denied");
+			System.out.println("The loan is denied for " + customerName);
 		}
 			else{
-					System.out.println("The loan is denied");
+					System.out.println("The loan is denied for " + customerName);
 				}
 		 
 	}
